@@ -1,0 +1,48 @@
+body {
+    background-color: #000;
+    position: absolute;
+    width: 80%;
+    height: 90%;
+    margin-left: 10%;
+}
+
+#calculadora {
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 95%;
+    height: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#igualdade {
+    position: absolute;
+    width: 13%;
+    height: 69%;
+    top: 19.5%;
+    left: 80.9%;
+    background-color: #0862a0;
+}
+
+#display {
+    width: 94%;
+    height: 10%;
+    font-size: 50pt;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#limpatela {
+    background-color: #ff0000;
+}
+
+button {
+    width: 20%;
+    height: 100px;
+    margin: 3px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 50pt;
+}

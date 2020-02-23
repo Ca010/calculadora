@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<link rel="stylesheet" href='calculadora.css'>
+
+<head>
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div id="calculadora">
+        <textarea id="display" disabled rows="1"></textarea>
+        <div>
+            <button onclick="pressNum(this)">1</button>
+            <button onclick="pressNum(this)">2</button>
+            <button onclick="pressNum(this)">3</button>
+            <button onclick="pressOperador(this)">+</button>
+        </div>
+        <div>
+            <button onclick="pressNum(this)">4</button>
+            <button onclick="pressNum(this)">5</button>
+            <button onclick="pressNum(this)">6</button>
+            <button onclick="pressOperador(this)">-</button>
+        </div>
+        <div>
+            <button onclick="pressNum(this)">7</button>
+            <button onclick="pressNum(this)">8</button>
+            <button onclick="pressNum(this)">9</button>
+            <button onclick="pressOperador(this)">*</button>
+        </div>
+        <div>
+            <button onclick="pressNum(this)">0</button>
+            <button onclick="pressNum(this)">.</button>
+            <button id="limpatela" onclick="clearAll()">c</button>
+            <button onclick="pressOperador(this)">/</button>
+        </div>
+        <button id="igualdade" onclick="pressEqual()">=</button>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
